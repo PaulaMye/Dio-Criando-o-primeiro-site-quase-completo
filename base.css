@@ -5,25 +5,28 @@ body {
     background-color: #c27052;
     display: flex;
     justify-content: center;
-    color: #d4c3a4;
 }
 
 .wrapper {
-    width: 1200px;
+    width: auto;
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgb(192, 138, 118);
 }
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 95%;
 }
 .menu {
     width: 15%;
     background-color: rgba(255, 214, 160, 0.521);
     padding: 10px 20px 0px;
-    color: rgb(172, 87, 26);
+    color: rgb(207, 109, 38);
+    font-size: x-large;
+    font-family: sans-serif;
+    text-align: center
+    
 }
 .header {
     background-color: rgba(230, 161, 137, 0.308);
@@ -31,9 +34,10 @@ body {
 }
 .content {
     background-color: white;
-    min-height: 300px;
-    padding: 20px;
+    min-height: max-content;
+    padding: 100px;
     font-family: cursive;
+    font-size: medium;
     color: rgb(172, 87, 26);
 }
 .footer {
@@ -50,6 +54,27 @@ body {
 }
 .bota {
     font-size: medium;
-    color: rgba(230, 161, 137, 0.308);
     font-family: Georgia;
+}
+.lotus{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.conteudo {
+    background-color: white;
+    width: auto;
+    padding: 20px;
+    font-family: cursive;
+    font-size: medium;
+    color: rgb(172, 87, 26);
+}
+.container{
+    width: 1200px;
+    display: grid;
+    margin: 0 auto;
+    background-color: rgb(192, 138, 118);
+}
+.linklink{
+    color: #c27052;
 }
