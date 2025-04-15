@@ -23,18 +23,33 @@ body {
     width: 15%;
     background-color: rgba(255, 214, 160, 0.521);
     padding: 10px 20px 0px;
-    color: saddlebrown;
+    color: rgb(172, 87, 26);
 }
 .header {
-    background-color: rgba(235, 188, 171, 0.308);
+    background-color: rgba(230, 161, 137, 0.308);
     min-height: 150px;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    font-family: cursive;
+    color: rgb(172, 87, 26);
 }
 .footer {
     background-color: rgb(255, 214, 160);
-    min-height: 150px;
+    min-height: 50px;
+    text-align: center;
+    color: rgb(172, 87, 26);
+    font-size: small;
+}
+.meditacao {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+.bota {
+    font-size: medium;
+    color: rgba(230, 161, 137, 0.308);
+    font-family: Georgia;
 }
