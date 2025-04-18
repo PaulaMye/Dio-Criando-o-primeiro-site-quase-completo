@@ -189,3 +189,35 @@ button[type="submit"]:hover {
     text-align: center;
     margin-top: 5px;
 }
+.tabela-servicos-container {
+    margin-bottom: 30px;
+}
+.tabela-servicos-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.tabela-servicos-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+.tabela-servicos-container th,
+.tabela-servicos-container td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.tabela-servicos-container th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+.tabela-servicos-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+} 
+.tabela-servicos-container tbody tr:last-child td {
+    border-bottom: none;
+} 
+.tabela-servicos-container td:last-child {
+    text-align: center;
+}
